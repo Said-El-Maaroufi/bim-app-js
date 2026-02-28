@@ -16,45 +16,33 @@ inputProduct.addEventListener('input' , (event) => {
 
     if(inputValue == ''){
         pdtContainer.textContent = ''; 
+        return
     }else{
-        console.log(typeof(pdtX))
-        if(pdtX == ''){
 
             pdtX = products.filter((pdt) => pdt.nom.startsWith(inputValue) || pdt.code.startsWith(inputValue) ? pdt : '')
             if(pdtX == ''){
                 return
             }else{
                 
-                pdtX.map((pdt) => {
-                    const tr = document.createElement('tr');
-                    const tdNom = document.createElement('td');
-                    const tdCode = document.createElement('td');
-                    
-                    tdNom.textContent = pdt.nom;
-                    tdCode.textContent = pdt.code;
-                    
-                    tr.appendChild(tdNom);
-                    tr.appendChild(tdCode);
-                    pdtContainer.appendChild(tr) ;
-                })
+                if(pdtX.length == 1){
+                        pdtX.map((pdt) => {
+                            const tr = document.createElement('tr');
+                            const tdNom = document.createElement('td');
+                            const tdCode = document.createElement('td');
+
+                            tdNom.textContent = pdt.nom;
+                            tdCode.textContent = pdt.code;
+
+
+                            tr.appendChild(tdNom);
+                            tr.appendChild(tdCode);
+                            pdtContainer.appendChild(tr);
+                        })
+                    }else{
+                pdtX = pdtX.filter((pdt) => pdt.nom.startsWith(inputValue) || pdt.code.startsWith(inputValue) ? pdt : '')
+                    }
             }
-        }else{
-            pdtContainer.textContent = '';
-            pdtX.map((pdt) => {
-                    const tr = document.createElement('tr');
-                    const tdNom = document.createElement('td');
-                    const tdCode = document.createElement('td');
-                    
-                    tdNom.textContent = pdt.nom;
-                    tdCode.textContent = pdt.code;
-                    
-                    tr.appendChild(tdNom);
-                    tr.appendChild(tdCode);
-                    pdtContainer.appendChild(tr) ;
-        }
-    )
-    }
 }
-            
-})           
-  
+}
+
+)
