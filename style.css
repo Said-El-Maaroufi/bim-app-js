@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin:  20px auto 0px;
+}
+
+table{
+    width: 90%;
+    margin:  auto;
+}

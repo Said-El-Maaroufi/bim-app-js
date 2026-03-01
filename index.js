@@ -27,7 +27,7 @@ inputProduct.addEventListener('input' , (event) => {
     }else{
 //2040057
         if(inputValue.toString().length >= 2 ){
-            pdtX = products.filter((pdt) => pdt.nom.startsWith(inputValue) || pdt.code.startsWith(inputValue) ? pdt : '')
+            pdtX = products.filter((pdt) => pdt.nom.startsWith(inputValue) ? pdt : '')
             pdtContainer.textContent = '';
                 pdtX.map((pdt) => {
                             const tr = document.createElement('tr');
@@ -47,7 +47,7 @@ inputProduct.addEventListener('input' , (event) => {
 
                 
                 
-                pdtX = products.filter((pdt) => pdt.nom.startsWith(inputValue) || pdt.code.startsWith(inputValue) ? pdt : '')
+                pdtX = products.filter((pdt) => pdt.nom.startsWith(inputValue) ? pdt : '')
                 
                 pdtX.map((pdt) => {
                     const tr = document.createElement('tr');
@@ -79,3 +79,5 @@ inputProduct.addEventListener('input' , (event) => {
 
 
 )
+
+
