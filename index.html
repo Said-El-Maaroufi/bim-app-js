@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+    <div class="container d-flex flex-column justify-content-center" >
+        <input class="form-control mt-3 " type="text" id="pdt" placeholder="entrez le code du produit..."  >
 
-    <input type="text" id="pdt" placeholder="entrez le code du produit"  >
-<br>
-<br>
-<table border="1" cellspacing="5" cellpadding="10">
+<table class=" table  table-bordered table-hover table-striped w-100 mt-4">
     <thead>
-        <tr>
-            <th >nom</th>
+        <tr >
+            <th>nom</th>
             <th>code</th>
+            <th>Qte</th>
         </tr>
     </thead>
     <tbody id="showPdt">
 
     </tbody>
 </table>
+    </div>
+
     
 
     <script src="index.js"></script>
