@@ -59,15 +59,18 @@ inputProduct.addEventListener('input' , (event) => {
             const tdNom = document.createElement('td');
             const tdCode = document.createElement('td');
             const tdQte = document.createElement('td');
+            const tdMarque = document.createElement('td');
             
 
             tdNom.textContent = produit.nomFrance;
             tdCode.textContent = produit.code;
             tdQte.textContent = produit.Qte;
+            tdMarque.textContent = produit.marque
 
             tr.appendChild(tdNom)
             tr.appendChild(tdCode)
             tr.appendChild(tdQte)
+            tr.appendChild(tdMarque)
 
             pdtContainer.appendChild(tr)
             
