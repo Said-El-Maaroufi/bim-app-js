@@ -2,7 +2,6 @@
 // importation des produits
 import { products } from "./data.js";
 
-console.log(products)
 // recuperer l'id ou d'input où il tape l'utilisateur
 const inputProduct = document.getElementById('pdt');
 
@@ -11,11 +10,15 @@ const  pdtContainer = document.getElementById('showPdt');
 
 
 // declaration table vide pour le deuxieme filtre
-let pdtX = [];
+
+console.log('im out')
 
 
 inputProduct.addEventListener('input' , (event) => {
+    console.log('im in')
+
     let inputValue =  event.target.value; //20
+    
     // ain
     /*{
         nomFrance : 'Eau de Table',
@@ -30,75 +33,47 @@ inputProduct.addEventListener('input' , (event) => {
     */
 
     if(inputValue == ''){
+        //en cas d'affichage des produits et apres si l'utilisateur vide l'input le container il faut devenir vide
         pdtContainer.textContent = '';
-        return
+        console.log('im in the input value')
     }else{
-            if(inputValue.toString().length >= 2){
-// '3 '
-// sidialideuxlitre
-// SIDI ALI
-                pdtX = pdtX.filter((pdt) => 
-                    pdt.nomFrance.toLowerCase().includes(inputValue.toLowerCase().split('')[0]) 
-                ||  pdt.marque.toLowerCase().includes(inputValue.toLowerCase().split('')[0])
-                ||  pdt.code.includes(inputValue.toString().split('')[0])
-                ? pdt : ''
-                )
-                pdtContainer.textContent = '';
-                pdtX.map((pdt) => {
-                            const tr = document.createElement('tr');
-                            const tdNom = document.createElement('td');
-                            const tdCode = document.createElement('td');
-                            const tdQte = document.createElement('td')
-                            
-                            tdNom.textContent = pdt.nomFrance;
-                            tdCode.textContent = pdt.code;
-                            tdQte.textContent = pdt.Qte +'L'
-                            
-                            
-                            tr.appendChild(tdNom);
-                            tr.appendChild(tdCode);
-                            tr.appendChild(tdQte);
-                            pdtContainer.appendChild(tr);
-                            
-                })
+        //declaration d'un variable produitsFiltre pour storer les produits filtrer 
+        let pdtsFlt = [];
 
-
-            }else{
-
-            pdtX =
-            products.filter((pdt) => 
-                pdt.nomFrance.toLowerCase().startsWith(inputValue.toLowerCase()) 
-            ||  pdt.marque.toLowerCase().startsWith(inputValue.toLowerCase())
-            ||  pdt.code.startsWith(inputValue)
-            ? pdt : '')
-            if(pdtX[0] == ''){
-                return
-            }else{
-
-                pdtX.map((pdt) => {
-                    const tr = document.createElement('tr');
-                    const tdNom = document.createElement('td');
-                    const tdCode = document.createElement('td');
-                    const tdQte = document.createElement('td')
-                    
-                    tdNom.textContent = pdt.nomFrance;
-                    tdCode.textContent = pdt.code;
-                    tdQte.textContent = pdt.Qte +'L'
-                    
-                    
-                    tr.appendChild(tdNom);
-                    tr.appendChild(tdCode);
-                    tr.appendChild(tdQte);
-                    pdtContainer.appendChild(tr);
-                    
-                })
+        products.filter((produit) => {
+            let resultat = Object.values(produit).some((values) => {
+                console.log(values)
+                return values.startsWith(inputValue)
+            })
+            if(resultat){
+                pdtsFlt.push(produit)
             }
-            }
-            }
+            
+
+
+        } )
+
+        pdtsFlt.map((produit) => {
+
+            const tr = document.createElement('tr');
+            const tdNom = document.createElement('td');
+            const tdCode = document.createElement('td');
+            const tdQte = document.createElement('td');
+            
+
+            tdNom.textContent = produit.nomFrance;
+            tdCode.textContent = produit.code;
+            tdQte.textContent = produit.Qte;
+
+            tr.appendChild(tdNom)
+            tr.appendChild(tdCode)
+            tr.appendChild(tdQte)
+
+            pdtContainer.appendChild(tr)
+            
+        })
+        
         }
-
-
-
+    }
 )
-
 
