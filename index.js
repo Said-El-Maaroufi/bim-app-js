@@ -54,25 +54,18 @@ inputProduct.addEventListener('input' , (event) => {
         } )
 
         pdtsFlt.map((produit) => {
+            const divParent = document.createElement('div');
+            divParent.className = 'card w-50';
+            divParent.innerHTML = 
+            `
+            <img  src="" alt="BIM" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">${produit.code}</h5>
+            <p class="card-text">${produit.nomFrance}</p>
+            </div>
+            `
 
-            const tr = document.createElement('tr');
-            const tdNom = document.createElement('td');
-            const tdCode = document.createElement('td');
-            const tdQte = document.createElement('td');
-            const tdMarque = document.createElement('td');
-            
-
-            tdNom.textContent = produit.nomFrance;
-            tdCode.textContent = produit.code;
-            tdQte.textContent = produit.Qte;
-            tdMarque.textContent = produit.marque
-
-            tr.appendChild(tdNom)
-            tr.appendChild(tdCode)
-            tr.appendChild(tdQte)
-            tr.appendChild(tdMarque)
-
-            pdtContainer.appendChild(tr)
+            pdtContainer.appendChild(divParent)
             
         })
         
