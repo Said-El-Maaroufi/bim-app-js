@@ -6,7 +6,7 @@ export const products = [
     {nomFrance : 'EAU MINERAL 5+1SAISS',nomArabe:'',marque:'AIN SAISS', code : '21704937', bareCode:'', image:'', prix:'12.80', Qte:'5L+1'},
     {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'AIN SAISS', code : '20300857', bareCode:'', image:'', prix:'2.50', Qte:'0.5'},
     {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'AIN SAISS', code : '20300858', bareCode:'', image:'', prix:'4.55', Qte:'1.5'},
-    {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'SIDI ALI', code : '20300011', bareCode:'', image:'', prix:'2.75', Qte:'0.5'},
+    {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'SIDI ALI', code : '20300011', bareCode:'', image:'sidi_ali_0.5l-rem.png', prix:'2.75', Qte:'0.5'},
     {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'SIDI ALI', code : '20300010', bareCode:'', image:'', prix:'4.80', Qte:'1.5'},
     {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'SIDI ALI', code : '20300174', bareCode:'', image:'', prix:'1.70', Qte:'0.33C'},
     {nomFrance : 'Eau minérale naturelle', nomArabe:'', marque : 'SIDI ALI', code : '20300562', bareCode:'', image:'', prix:'5.50', Qte:'2.0'},

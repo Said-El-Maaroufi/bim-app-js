@@ -55,13 +55,18 @@ inputProduct.addEventListener('input' , (event) => {
 
         pdtsFlt.map((produit) => {
             const divParent = document.createElement('div');
-            divParent.className = 'card w-50';
+            divParent.className = 'card flex-grow-1';
+            divParent.style.width = '18rem';
+            divParent.style.maxWidth = '350px';
             divParent.innerHTML = 
             `
-            <img  src="" alt="BIM" class="card-img-top">
+            <img  src="" alt="BIM" class="">
             <div class="card-body">
-            <h5 class="card-title">${produit.code}</h5>
-            <p class="card-text">${produit.nomFrance}</p>
+                <h5 class="card-title">${produit.code}</h5>
+                <p class="card-text">${produit.nomFrance}</p>
+                <h4>${produit.marque}</h4>
+                <h6>${produit.Qte}</h6>
+                <a href="#"  class="btn btn-primary">Plus</a>
             </div>
             `
 
