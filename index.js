@@ -11,11 +11,9 @@ const  pdtContainer = document.getElementById('showPdt');
 
 // declaration table vide pour le deuxieme filtre
 
-console.log('im out')
 
 
 inputProduct.addEventListener('input' , (event) => {
-    console.log('im in')
 
     let inputValue =  event.target.value; //20
     
@@ -35,22 +33,17 @@ inputProduct.addEventListener('input' , (event) => {
     if(inputValue == ''){
         //en cas d'affichage des produits et apres si l'utilisateur vide l'input le container il faut devenir vide
         pdtContainer.textContent = '';
-        console.log('im in the input value')
     }else{
         //declaration d'un variable produitsFiltre pour storer les produits filtrer 
         let pdtsFlt = [];
 
         products.filter((produit) => {
             let resultat = Object.values(produit).some((values) => {
-                console.log(values)
-                return values.startsWith(inputValue)
+                // filtrage des valeurs fait par deux norme
+                return values.toLowerCase().includes(inputValue.toLowerCase().trim()) || values.toLowerCase() == inputValue.toLowerCase().trim()
             })
-            if(resultat){
-                pdtsFlt.push(produit)
-            }
-            
-
-
+            console.log('im in the filter function')
+            return resultat ? pdtsFlt.push(produit) : ''
         } )
 
         pdtsFlt.map((produit) => {
@@ -60,12 +53,15 @@ inputProduct.addEventListener('input' , (event) => {
             divParent.style.maxWidth = '350px';
             divParent.innerHTML = 
             `
-            <img  src="" alt="BIM" class="">
+            <img  src="" alt="BIM-IMAGE" class="">
             <div class="card-body">
                 <h5 class="card-title">${produit.code}</h5>
                 <p class="card-text">${produit.nomFrance}</p>
                 <h4>${produit.marque}</h4>
-                <h6>${produit.Qte}</h6>
+                <div class="d-flex justify-content-between">
+                    <h6>${produit.Qte}</h6>
+                    <h6 class="text-danger">${produit.prix} DH</h6>
+                </div>
                 <a href="#"  class="btn btn-primary">Plus</a>
             </div>
             `
