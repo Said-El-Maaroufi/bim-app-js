@@ -37,15 +37,15 @@ inputProduct.addEventListener('input' , (event) => {
         //declaration d'un variable produitsFiltre pour storer les produits filtrer 
         let pdtsFlt = [];
 
-        products.filter((produit) => {
+        pdtsFlt = products.filter((produit) => {
             let resultat = Object.values(produit).some((values) => {
                 // filtrage des valeurs fait par deux norme
                 return values.toLowerCase().includes(inputValue.toLowerCase().trim()) || values.toLowerCase() == inputValue.toLowerCase().trim()
             })
-            console.log('im in the filter function')
-            return resultat ? pdtsFlt.push(produit) : ''
+            return resultat ? produit : ''
         } )
-
+        // apres chaque parcour d'un element il faut vider le terain d'affichage
+        pdtContainer.textContent = '';
         pdtsFlt.map((produit) => {
             const divParent = document.createElement('div');
             divParent.className = 'card flex-grow-1';

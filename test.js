@@ -6,19 +6,6 @@ let produit ={nomFrance : 'Eau de Table', nomArabe: '',marque:'VITALYA', code : 
     
 // }
 
-let x = 'eau d';
-let y = 'Eau de Table'
-
-console.log(x.toLowerCase().trim() == y.toLowerCase()|| y.toLowerCase().includes(x.toLowerCase().trim()))
-
-
-const monTableau = [12, 1]
-function test(array) {
-    
-    const resultat = array.some((element) => {
-        return element > 10; // La condition à tester
-    });
-    return resultat ? 'true is ':'false is'
-}
-
-console.log(test(monTableau))
+let y = 'eau d' 
+let x = 'Eau minérale naturelle'
+console.log(x.includes(y))
