@@ -53,7 +53,9 @@ inputProduct.addEventListener('input' , (event) => {
             divParent.style.maxWidth = '350px';
             divParent.innerHTML = 
             `
-            <img  src="" alt="BIM-IMAGE" class="">
+            <div class="ratio ratio-21x9 ">
+            <img  src="./images/${produit.image}" alt="BIM-IMAGE" class="object-fit-contain border border-3 border-warning " >
+            </div>
             <div class="card-body">
                 <h5 class="card-title">${produit.code}</h5>
                 <p class="card-text">${produit.nomFrance}</p>
@@ -64,6 +66,8 @@ inputProduct.addEventListener('input' , (event) => {
                 </div>
                 <a href="#"  class="btn btn-primary">Plus</a>
             </div>
+            
+
             `
 
             pdtContainer.appendChild(divParent)
