@@ -1,7 +1,7 @@
-body{
+/* body{
     margin: 0;
-}
-
+} */
+/* 
 input {
     display: block;
     width: 90%;
@@ -12,9 +12,13 @@ input {
 table{
     width: 90%;
     margin:  auto;
-}
+} */
 
 /* img{
    object-fit: contain;
 
 } */
+
+.card{
+    width: 18rem;
+}

@@ -1,0 +1,1 @@
+// Outil recommandé : Puppeteer ou Playwright (Node.js). Ces outils permettent de naviguer sur le site comme un humain, de cliquer sur les catalogues et d'extraire l'URL de chaque image de produit.

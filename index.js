@@ -48,27 +48,39 @@ inputProduct.addEventListener('input' , (event) => {
         pdtContainer.textContent = '';
         pdtsFlt.map((produit) => {
             const divParent = document.createElement('div');
-            divParent.className = 'card flex-grow-1';
+            divParent.className = 'row';
             divParent.style.width = '18rem';
-            divParent.style.maxWidth = '350px';
             divParent.innerHTML = 
             `
-            <div class="ratio ratio-21x9 ">
-            <img  src="./images/${produit.image}" alt="BIM-IMAGE" class="object-fit-contain border border-3 border-warning " >
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">${produit.code}</h5>
-                <p class="card-text">${produit.nomFrance}</p>
-                <h4>${produit.marque}</h4>
-                <div class="d-flex justify-content-between">
-                    <h6>${produit.Qte}</h6>
-                    <h6 class="text-danger">${produit.prix} DH</h6>
+                <div class=" col-12 col-md-6 col-lg-4">
+
+                    <div class="card text-center">
+                        <div class="ratio ratio-21x9">
+                            <img  src="" alt="BIM-IMAGE" class="card-img-top object-fit-contain" >
+                        </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><span class="badge bg-warning text-dark  rounded-pill">${produit.code}</span></h3>
+                        <p class="card-text">${produit.nomFrance}</p>
+                        <a href="#" class="btn btn-warning ">Plus</a>
+                    </div> 
+                    </div>
                 </div>
-                <a href="#"  class="btn btn-primary">Plus</a>
-            </div>
             
 
             `
+
+            /*
+            { 
+  nomFrance: "Diffuseur de parfum", 
+  nomArabe: "معطر الجو", 
+  marque: "ETEREA REED", 
+  code: "21706120", 
+  bareCode: "", 
+  image: "", 
+  prix: "27.90", 
+  Qte: "100 ml" 
+}
+            */
 
             pdtContainer.appendChild(divParent)
             
