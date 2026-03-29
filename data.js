@@ -33,6 +33,20 @@ export const products = [
   { nomFrance: "Eau minérale naturelle", nomArabe: "", marque: "AIN ATLAS", code: "20300085", bareCode: "", image: "", prix: "11.70", Qte: "5.0" },
   { nomFrance: "Eau minérale naturelle", nomArabe: "", marque: "AIN IFRANE", code: "21705828", bareCode: "", image: "", prix: "10.90", Qte: "5.0" },
   { nomFrance: "Essuie tout", nomArabe: "", marque: "BLUME", code: "21703996", bareCode: "", image: "", prix: "29.90", Qte: "1kg" },
-  { nomFrance: "Diffuseur de parfum", nomArabe: "معطر الجو", marque: "ETEREA REED", code: "21706120", bareCode: "", image: "", prix: "27.90", Qte: "100 ml" }
+  { nomFrance: "Diffuseur de parfum", nomArabe: "معطر الجو", marque: "ETEREA REED", code: "21706120", bareCode: "", image: "", prix: "27.90", Qte: "100 ml" },
+  {nomFrance: "Vermicelle de chine", nomArabe: "شعرية صينية", marque: "LONGKOU", code: "21706197", bareCode: "", image: "./images/Vermicelle de chine_LONGKOU.PNG", prix: "", Qte: "200"},
+  {nomFrance: "Nouilles instantanées", nomArabe: "نودلز سريعة التحضير", marque: "HARMONY", code: "21705208", bareCode: "", image: "./images/Nouilles instantanées_HARMONY.PNG", prix: "", Qte: "400"},
+  {nomFrance: "Essuie tout", nomArabe: "مناشف ورقية", marque: "BLUME", code: "21703996", bareCode: "", image: "./images/MEGA HAVLU.PNG", prix: "", Qte: "1"},
+  {nomFrance: "Oignon émincé", nomArabe: "بصل مفروم مجفف", marque: "PEPERONI", code: "21706298", bareCode: "", image: "", prix: "./images/Oignon émincé.PNG", Qte: "90"},
+  {nomFrance: "Sauce piquante", nomArabe: "صلصة حارة", marque: "YURI", code: "21705173", bareCode: "", image: "./images/Sauce piquante yuri.PNG", prix: "", Qte: "88"},
+  {nomFrance: "Cake", nomArabe: "كيك", marque: "MANDUL", code: "21705921", bareCode: "", image: "./images/cake mandul.PNG", prix: "", Qte: "200"},
+  {nomFrance: "Infusion eart grey", nomArabe: "شاي بالأعشاب", marque: "AHMAD TEA", code: "21705750", bareCode: "", image: "./images/infusion eart grey.PNG", prix: "", Qte: "20U"},
+  {nomFrance: "Infusion blackcurrant burst", nomArabe: "شاي بالأعشاب", marque: "AHMAD TEA", code: "21705751", bareCode: "", image: "./images/infusion blackcurrant burst.PNG", prix: "", Qte: "20unite"},
+  {nomFrance: "Biscuit", nomArabe: "بسكويت", marque: "HAYHAY", code: "21705811", bareCode: "", image: "./images/hayhay bimo.PNG", prix: "", Qte: "100"},
+  {nomFrance: "SAVON LIQUIDE", nomArabe: "الصابون السائل", marque: "IŞIL", code: "21401674", bareCode: "", image:"./images/savon isil 750ml.PNG", prix: "", Qte: "750"},
+  {nomFrance: "Snack de maïs", nomArabe: "مقبلات", marque: "SPIDERS TOSFRIT", code: "21705795", bareCode: "", image: "./images/Spiders pop.PNG", prix: "", Qte: "90"},
+  {nomFrance: "Pop corn", nomArabe: "فشار", marque: "SOHO", code: "21705792", bareCode: "", image: "./images/wild pop.PNG", prix: "", Qte: "70"},
+  {nomFrance: "Désodorisant parfumé", nomArabe: "معطر الجو", marque: "RELEVI", code: "21704541", bareCode: "", image: "./images/désodorisant parfumé.PNG", prix: "14.90", Qte: "3U"}
+
 ];
 

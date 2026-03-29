@@ -12,6 +12,45 @@ const  pdtContainer = document.getElementById('showPdt');
 // declaration table vide pour le deuxieme filtre
 
 
+products.map((produit) => {
+            const divParent = document.createElement('div');
+            divParent.style.width = '18rem';
+            divParent.innerHTML = 
+            `
+                <div class=" col-12 col-md-6 col-lg-4">
+
+                    <div class="card text-center">
+                        <div class="ratio ratio-21x9">
+                            <img  src="${produit.image}" alt="BIM-IMAGE" class="card-img-top object-fit-contain" >
+                        </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><span class="badge bg-warning text-dark  rounded-pill">${produit.code}</span></h3>
+                        <p class="card-text">${produit.nomFrance}</p>
+                        <a href="#" class="btn btn-warning ">Plus</a>
+                    </div> 
+                    </div>
+                </div>
+            
+
+            `
+
+            /*
+            { 
+  nomFrance: "Diffuseur de parfum", 
+  nomArabe: "معطر الجو", 
+  marque: "ETEREA REED", 
+  code: "21706120", 
+  bareCode: "", 
+  image: "", 
+  prix: "27.90", 
+  Qte: "100 ml" 
+}
+            */
+
+            pdtContainer.appendChild(divParent)
+            
+        })
+
 
 inputProduct.addEventListener('input' , (event) => {
 
@@ -56,7 +95,7 @@ inputProduct.addEventListener('input' , (event) => {
 
                     <div class="card text-center">
                         <div class="ratio ratio-21x9">
-                            <img  src="" alt="BIM-IMAGE" class="card-img-top object-fit-contain" >
+                            <img  src="${produit.image}" alt="BIM-IMAGE" class="card-img-top object-fit-contain" >
                         </div>
                     <div class="card-body">
                         <h3 class="card-title"><span class="badge bg-warning text-dark  rounded-pill">${produit.code}</span></h3>
