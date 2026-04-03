@@ -25,7 +25,8 @@ products.map((produit) => {
                     <div class="card-body">
                         <h3 class="card-title"><span class="badge bg-warning text-dark  rounded-pill">${produit.code}</span></h3>
                         <p class="card-text">${produit.nomFrance}</p>
-                        <a href="#" class="btn btn-warning ">Plus</a>
+                        <span>${produit.Qte}</span>|
+                        <span class="text-danger">${produit.prix}</span>
                     </div> 
                     </div>
                 </div>
@@ -99,7 +100,9 @@ inputProduct.addEventListener('input' , (event) => {
                     <div class="card-body">
                         <h3 class="card-title"><span class="badge bg-warning text-dark  rounded-pill">${produit.code}</span></h3>
                         <p class="card-text">${produit.nomFrance}</p>
-                        <a href="#" class="btn btn-warning ">Plus</a>
+                        <span >${produit.Qte}</span>|
+                        <span class="text-danger">${produit.prix}</span>
+                        
                     </div> 
                     </div>
                 </div>

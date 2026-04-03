@@ -50,7 +50,7 @@ export const products = [
   {nomFrance: "Trio de poulet panés", nomArabe: "", marque: "CRANCHITTA", code: "21702761", bareCode: "", image: "./images/trio de poulet panés.PNG", prix: "29.90", Qte: "300"},
   {nomFrance: "pyjama flannel pour homme ", nomArabe: "", marque: "", code: "21709719", bareCode: "", image: "./images/pyjama flanel pour homme.PNG", prix: "119.90", Qte: "M/L/XL/XXL"},
   {nomFrance: "pyjama flannel pour garçon ", nomArabe: "", marque: "", code: "21709720", bareCode: "", image: "./images/pyjama flannel pour garçonPNG.PNG", prix: "89.90", Qte: "5-6/7-8/9-10/11-12"},
-  {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501137", bareCode: "", image: "./images/", prix: "29.90", Qte: "L/XL"},
+  {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501137", bareCode: "", image: "", prix: "29.90", Qte: "L/XL"},
   {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501136", bareCode: "", image: "./images/", prix: "29.90", Qte: "S/M"},
   {nomFrance: "slips femme 3PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501128", bareCode: "", image: "./images/", prix: "39.90", Qte: "L/XL"},
   {nomFrance: "slips femme 3PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501132", bareCode: "", image: "./images/", prix: "39.90", Qte: "S/M"},
