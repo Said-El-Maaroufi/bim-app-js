@@ -14,7 +14,6 @@ const  pdtContainer = document.getElementById('showPdt');
 
 products.map((produit) => {
             const divParent = document.createElement('div');
-            divParent.style.width = '18rem';
             divParent.innerHTML = 
             `
                 <div class=" col-12 col-md-6 col-lg-4">

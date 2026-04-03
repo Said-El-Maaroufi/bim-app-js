@@ -46,7 +46,23 @@ export const products = [
   {nomFrance: "SAVON LIQUIDE", nomArabe: "الصابون السائل", marque: "IŞIL", code: "21401674", bareCode: "", image:"./images/savon isil 750ml.PNG", prix: "", Qte: "750"},
   {nomFrance: "Snack de maïs", nomArabe: "مقبلات", marque: "SPIDERS TOSFRIT", code: "21705795", bareCode: "", image: "./images/Spiders pop.PNG", prix: "", Qte: "90"},
   {nomFrance: "Pop corn", nomArabe: "فشار", marque: "SOHO", code: "21705792", bareCode: "", image: "./images/wild pop.PNG", prix: "", Qte: "70"},
-  {nomFrance: "Désodorisant parfumé", nomArabe: "معطر الجو", marque: "RELEVI", code: "21704541", bareCode: "", image: "./images/désodorisant parfumé.PNG", prix: "14.90", Qte: "3U"}
+  {nomFrance: "Désodorisant parfumé", nomArabe: "معطر الجو", marque: "RELEVI", code: "21704541", bareCode: "", image: "./images/désodorisant parfumé.PNG", prix: "14.90", Qte: "3U"},
+  {nomFrance: "Trio de poulet panés", nomArabe: "", marque: "CRANCHITTA", code: "21702761", bareCode: "", image: "./images/trio de poulet panés.PNG", prix: "29.90", Qte: "300"},
+  {nomFrance: "pyjama flannel pour homme ", nomArabe: "", marque: "", code: "21709719", bareCode: "", image: "./images/pyjama flanel pour homme.PNG", prix: "119.90", Qte: "M/L/XL/XXL"},
+  {nomFrance: "pyjama flannel pour garçon ", nomArabe: "", marque: "", code: "21709720", bareCode: "", image: "./images/pyjama flannel pour garçonPNG.PNG", prix: "89.90", Qte: "5-6/7-8/9-10/11-12"},
+  {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501137", bareCode: "", image: "./images/", prix: "29.90", Qte: "L/XL"},
+  {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501136", bareCode: "", image: "./images/", prix: "29.90", Qte: "S/M"},
+  {nomFrance: "slips femme 3PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501128", bareCode: "", image: "./images/", prix: "39.90", Qte: "L/XL"},
+  {nomFrance: "slips femme 3PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501132", bareCode: "", image: "./images/", prix: "39.90", Qte: "S/M"},
+  {nomFrance: "Boxer hommes 1PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501130", bareCode: "", image: "./images/", prix: "29.90", Qte: "S/M"},
+  {nomFrance: "Boxer hommes 1PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501127", bareCode: "", image: "./images/", prix: "29.90", Qte: "L/XL"},
+  {nomFrance: "debard femme 1PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501134", bareCode: "", image: "./images/", prix: "29.90", Qte: "S/M MIX"},
+  {nomFrance: "debard homme 1PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501124", bareCode: "", image: "./images/", prix: "29.90", Qte: "L/XL"},
+  {nomFrance: "debard homme 1PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501131", bareCode: "", image: "./images/", prix: "29.90", Qte: "S/M"},
+  {nomFrance: "deo stick homme", nomArabe: "", marque: "NARTA", code: "21400625", bareCode: "", image: "./images/narta homme.PNG", prix: "34.90", Qte: ""},
+  {nomFrance: "deo stick femme", nomArabe: "", marque: "NARTA", code: "21400945", bareCode: "", image: "./images/narta femme.PNG", prix: "34.90", Qte: ""},
+  {nomFrance: "liquide de rinçage", nomArabe: "", marque: "ASPEROX SPARX", code: "21706199", bareCode: "", image: "./images/liquide de rinçage sparx.PNG", prix: "19.90", Qte:"400"},
+  {nomFrance: "lait d'amande UHT", nomArabe: "", marque: "BREEZE", code: "21703511", bareCode: "", image: "./images/lait damande uht.PNG", prix: "23.90", Qte:"1"}
 
 ];
 
