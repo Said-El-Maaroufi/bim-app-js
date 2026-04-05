@@ -62,7 +62,18 @@ export const products = [
   {nomFrance: "deo stick homme", nomArabe: "", marque: "NARTA", code: "21400625", bareCode: "", image: "./images/narta homme.PNG", prix: "34.90", Qte: ""},
   {nomFrance: "deo stick femme", nomArabe: "", marque: "NARTA", code: "21400945", bareCode: "", image: "./images/narta femme.PNG", prix: "34.90", Qte: ""},
   {nomFrance: "liquide de rinçage", nomArabe: "", marque: "ASPEROX SPARX", code: "21706199", bareCode: "", image: "./images/liquide de rinçage sparx.PNG", prix: "19.90", Qte:"400"},
-  {nomFrance: "lait d'amande UHT", nomArabe: "", marque: "BREEZE", code: "21703511", bareCode: "", image: "./images/lait damande uht.PNG", prix: "23.90", Qte:"1"}
+  {nomFrance: "lait d'amande UHT", nomArabe: "", marque: "BREEZE", code: "21703511", bareCode: "", image: "./images/lait damande uht.PNG", prix: "23.90", Qte:"1"},
+  {nomFrance: "Lait hydratant oil corps", nomArabe: "", marque: "VASELINE", code: "21705981", bareCode: "", image: "./images/vaseline 200ml.PNG", prix: "99.90", Qte:"200"},
+  {nomFrance: "Boisson", nomArabe: "", marque: "PRIME", code: "21704977", bareCode: "", image: "./images/prime boisson.PNG", prix: "33.50", Qte:"500"},
+  {nomFrance: "Pâte chat", nomArabe: "", marque: "TOP PET", code: "21706386", bareCode: "", image: "./images/pate chat.PNG", prix: "8.90", Qte:"415"},
+  {nomFrance: "Bol capacite", nomArabe: "", marque: "BAGER", code: "21607739", bareCode: "", image: "./images/bol 1200.PNG", prix: "4.90", Qte:"1200"},
+  {nomFrance: "Sucettes", nomArabe: "", marque: "YOUPI-MICHOC", code: "21705862", bareCode: "", image: "./images/youpi-michoc.PNG", prix: "3.50", Qte:"10PCS"}
+
+
+
+
+
+
 
 ];
 
