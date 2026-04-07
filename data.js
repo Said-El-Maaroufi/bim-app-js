@@ -38,7 +38,7 @@ export const products = [
   {nomFrance: "Nouilles instantanées", nomArabe: "نودلز سريعة التحضير", marque: "HARMONY", code: "21705208", bareCode: "", image: "./images/Nouilles instantanées_HARMONY.PNG", prix: "", Qte: "400"},
   {nomFrance: "Essuie tout", nomArabe: "مناشف ورقية", marque: "BLUME", code: "21703996", bareCode: "", image: "./images/MEGA HAVLU.PNG", prix: "", Qte: "1"},
   {nomFrance: "Oignon émincé", nomArabe: "بصل مفروم مجفف", marque: "PEPERONI", code: "21706298", bareCode: "", image: "", prix: "./images/Oignon émincé.PNG", Qte: "90"},
-  {nomFrance: "Sauce piquante", nomArabe: "صلصة حارة", marque: "YURI", code: "21705173", bareCode: "", image: "./images/Sauce piquante yuri.PNG", prix: "", Qte: "88"},
+  {nomFrance: "Sauce piquante", nomArabe: "صلصة حارة", marque: "YURI", code: "21705173", bareCode: "", image: "./images/Sauce piquante yuri.PNG", prix: "4.90", Qte: "88"},
   {nomFrance: "Cake", nomArabe: "كيك", marque: "MANDUL", code: "21705921", bareCode: "", image: "./images/cake mandul.PNG", prix: "", Qte: "200"},
   {nomFrance: "Infusion eart grey", nomArabe: "شاي بالأعشاب", marque: "AHMAD TEA", code: "21705750", bareCode: "", image: "./images/infusion eart grey.PNG", prix: "", Qte: "20U"},
   {nomFrance: "Infusion blackcurrant burst", nomArabe: "شاي بالأعشاب", marque: "AHMAD TEA", code: "21705751", bareCode: "", image: "./images/infusion blackcurrant burst.PNG", prix: "", Qte: "20unite"},
@@ -48,8 +48,8 @@ export const products = [
   {nomFrance: "Pop corn", nomArabe: "فشار", marque: "SOHO", code: "21705792", bareCode: "", image: "./images/wild pop.PNG", prix: "", Qte: "70"},
   {nomFrance: "Désodorisant parfumé", nomArabe: "معطر الجو", marque: "RELEVI", code: "21704541", bareCode: "", image: "./images/désodorisant parfumé.PNG", prix: "14.90", Qte: "3U"},
   {nomFrance: "Trio de poulet panés", nomArabe: "", marque: "CRANCHITTA", code: "21702761", bareCode: "", image: "./images/trio de poulet panés.PNG", prix: "29.90", Qte: "300"},
-  {nomFrance: "pyjama flannel pour homme ", nomArabe: "", marque: "", code: "21709719", bareCode: "", image: "./images/pyjama flanel pour homme.PNG", prix: "119.90", Qte: "M/L/XL/XXL"},
-  {nomFrance: "pyjama flannel pour garçon ", nomArabe: "", marque: "", code: "21709720", bareCode: "", image: "./images/pyjama flannel pour garçonPNG.PNG", prix: "89.90", Qte: "5-6/7-8/9-10/11-12"},
+  {nomFrance: "pyjama flannel pour homme ", nomArabe: "", marque: "", code: "21609719", bareCode: "", image: "./images/pyjama flanel pour homme.PNG", prix: "119.90", Qte: "M/L/XL/XXL"},
+  {nomFrance: "pyjama flannel pour garçon ", nomArabe: "", marque: "", code: "21609720", bareCode: "", image: "./images/pyjama flannel pour garçonPNG.PNG", prix: "89.90", Qte: "5-6/7-8/9-10/11-12"},
   {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501137", bareCode: "", image: "", prix: "29.90", Qte: "L/XL"},
   {nomFrance: "pack de 2 slip femmes bateau", nomArabe: "", marque: "COMFORT FAMILY", code: "21501136", bareCode: "", image: "./images/", prix: "29.90", Qte: "S/M"},
   {nomFrance: "slips femme 3PCS", nomArabe: "", marque: "COMFORT FAMILY", code: "21501128", bareCode: "", image: "./images/", prix: "39.90", Qte: "L/XL"},
@@ -67,7 +67,15 @@ export const products = [
   {nomFrance: "Boisson", nomArabe: "", marque: "PRIME", code: "21704977", bareCode: "", image: "./images/prime boisson.PNG", prix: "33.50", Qte:"500"},
   {nomFrance: "Pâte chat", nomArabe: "", marque: "TOP PET", code: "21706386", bareCode: "", image: "./images/pate chat.PNG", prix: "8.90", Qte:"415"},
   {nomFrance: "Bol capacite", nomArabe: "", marque: "BAGER", code: "21607739", bareCode: "", image: "./images/bol 1200.PNG", prix: "4.90", Qte:"1200"},
-  {nomFrance: "Sucettes", nomArabe: "", marque: "YOUPI-MICHOC", code: "21705862", bareCode: "", image: "./images/youpi-michoc.PNG", prix: "3.50", Qte:"10PCS"}
+  {nomFrance: "Sucettes", nomArabe: "", marque: "YOUPI-MICHOC", code: "21705862", bareCode: "", image: "./images/youpi-michoc.PNG", prix: "3.50", Qte:"10PCS"},
+  {nomFrance: "chocolat mix classic", nomArabe: "", marque: "TOREN", code: "20701960", bareCode: "", image: "./images/toren rouge.PNG", prix: "2.90", Qte:"42"},
+  {nomFrance: "chocolat mix classic", nomArabe: "", marque: "TOREN", code: "20701132", bareCode: "", image: "./images/toren rouge.PNG", prix: "2.90", Qte:"42"},
+  {nomFrance: "Netoyant anti-rouille et calcaire", nomArabe: "", marque: "AKS", code: "21200691", bareCode: "", image: "./images/aks anti-rouille.PNG", prix: "16.90", Qte:"1000"},
+  {nomFrance: "Netoyant multi-usages", nomArabe: "", marque: "AKS", code: "21200690", bareCode: "", image: "./images/aks multi-usages.PNG", prix: "16.90", Qte:"1000"},
+  {nomFrance: "Lingette", nomArabe: "", marque: "IVORY", code: "21300466", bareCode: "", image: "./images/lingette ivory.PNG", prix: "2.50", Qte:"15PCS"},
+  {nomFrance: "Pate de chat", nomArabe: "", marque: "MICHO", code: "21500999", bareCode: "", image: "./images/pate de chat 100g.PNG", prix: "5.50", Qte:"100"},
+  {nomFrance: "gants latex differents tailles", nomArabe: "", marque: "MR GREEN", code: "21500461", bareCode: "", image: "./images/gants latex mr green.PNG", prix: "12.90", Qte:"1PCS"},
+  {nomFrance: "bain de bouche mixte", nomArabe: "", marque: "LISTERINE", code: "21401496", bareCode: "", image: "./images/listerine bain bouche.PNG", prix: "34.90", Qte:"250"}
 
 
 

@@ -1,0 +1,1 @@
+  {nomFrance: "", nomArabe: "", marque: "", code: "", bareCode: "", image: "./images/", prix: "", Qte:""}
