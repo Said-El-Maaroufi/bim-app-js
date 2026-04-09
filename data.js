@@ -75,7 +75,17 @@ export const products = [
   {nomFrance: "Pate de chat", nomArabe: "", marque: "MICHO", code: "21500999", bareCode: "", image: "./images/pate de chat 100g.PNG", prix: "5.50", Qte:"100"},
   {nomFrance: "gants latex differents tailles", nomArabe: "", marque: "MR GREEN", code: "21500461", bareCode: "", image: "./images/gants latex mr green.PNG", prix: "12.90", Qte:"1PCS"},
   {nomFrance: "bain de bouche mixte", nomArabe: "", marque: "LISTERINE", code: "21401496", bareCode: "", image: "./images/listerine bain bouche.PNG", prix: "34.90", Qte:"250"},
-  {nomFrance: "Essuie tout", nomArabe: "", marque: "RENOVA", code: "21706480", bareCode: "", image: "./images/renova esui tout.PNG", prix: "23.90", Qte:"2PCS"}
+  {nomFrance: "Essuie tout", nomArabe: "", marque: "RENOVA", code: "21706480", bareCode: "", image: "./images/renova esui tout.PNG", prix: "23.90", Qte:"2PCS"},
+  {nomFrance: "Jouet interactif pour enfant growing egg", nomArabe: "", marque: "TURTLE", code: "21610130", bareCode: "", image: "./images/jouet interactif enfant egg.PNG", prix: "12.90", Qte:"36"},
+  {nomFrance: "Dattes Zahdi", nomArabe: "", marque: "ALBARARI", code: "20500376", bareCode: "", image: "./images/dattes zahdi.PNG", prix: "14.90", Qte:"500"},
+  {nomFrance: "Totas chips mix 30g", nomArabe: "", marque: "TOTAS", code: "20500467", bareCode: "", image: "./images", prix: "3.90", Qte:"30"},
+  {nomFrance: "dessert mix", nomArabe: "", marque: "LIEGOG", code: "20201065", bareCode: "", image: "./images", prix: "6.90", Qte:"200"},
+  {nomFrance: "lot de 3 boites a mouchoires", nomArabe: "", marque: "CASA", code: "21706479", bareCode: "", image: "./images/mouchoires casa.PNG", prix: "22.90", Qte:"3x600PCS"},
+  {nomFrance: "Gaufrettes mixte", nomArabe: "", marque: "POKER", code: "20702021", bareCode: "", image: "./images", prix: "3.50", Qte:"45"},
+  {nomFrance: "Petit Pois Casses", nomArabe: "", marque: "L'MEMA", code: "20400852", bareCode: "", image: "./images", prix: "9.50", Qte:"500"},
+  {nomFrance: "Feves Casses", nomArabe: "", marque: "L'MEMA", code: "20400854", bareCode: "", image: "./images", prix: "8.90", Qte:"500"},
+  {nomFrance: "sabot tendance hommes", nomArabe: "", marque: "ORIES", code: "21609530", bareCode: "", image: "./images", prix: "69.90", Qte:"40-45"},
+  {nomFrance: "sabot tendance femmes", nomArabe: "", marque: "ORIES", code: "21609528", bareCode: "", image: "./images", prix: "49.90", Qte:"36-41"}
 
 
 
