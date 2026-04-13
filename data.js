@@ -76,7 +76,7 @@ export const products = [
   {nomFrance: "gants latex differents tailles", nomArabe: "", marque: "MR GREEN", code: "21500461", bareCode: "", image: "./images/gants latex mr green.PNG", prix: "12.90", Qte:"1PCS"},
   {nomFrance: "bain de bouche mixte", nomArabe: "", marque: "LISTERINE", code: "21401496", bareCode: "", image: "./images/listerine bain bouche.PNG", prix: "34.90", Qte:"250"},
   {nomFrance: "Essuie tout", nomArabe: "", marque: "RENOVA", code: "21706480", bareCode: "", image: "./images/renova esui tout.PNG", prix: "23.90", Qte:"2PCS"},
-  {nomFrance: "Jouet interactif pour enfant growing egg", nomArabe: "", marque: "TURTLE", code: "21610130", bareCode: "", image: "./images/jouet interactif enfant egg.PNG", prix: "12.90", Qte:"36"},
+  {nomFrance: "Jouet interactif pour enfant growing egg", nomArabe: "", marque: "TURTLE", code: "21610130", bareCode: "", image:"./images/jouet interactif enfant egg.PNG", prix: "12.90", Qte:"36"},
   {nomFrance: "Dattes Zahdi", nomArabe: "", marque: "ALBARARI", code: "20500376", bareCode: "", image: "./images/dattes zahdi.PNG", prix: "14.90", Qte:"500"},
   {nomFrance: "Totas chips mix 30g", nomArabe: "", marque: "TOTAS", code: "20500467", bareCode: "", image: "./images", prix: "3.90", Qte:"30"},
   {nomFrance: "dessert mix", nomArabe: "", marque: "LIEGOG", code: "20201065", bareCode: "", image: "./images", prix: "6.90", Qte:"200"},
@@ -84,8 +84,11 @@ export const products = [
   {nomFrance: "Gaufrettes mixte", nomArabe: "", marque: "POKER", code: "20702021", bareCode: "", image: "./images", prix: "3.50", Qte:"45"},
   {nomFrance: "Petit Pois Casses", nomArabe: "", marque: "L'MEMA", code: "20400852", bareCode: "", image: "./images", prix: "9.50", Qte:"500"},
   {nomFrance: "Feves Casses", nomArabe: "", marque: "L'MEMA", code: "20400854", bareCode: "", image: "./images", prix: "8.90", Qte:"500"},
-  {nomFrance: "sabot tendance hommes", nomArabe: "", marque: "ORIES", code: "21609530", bareCode: "", image: "./images", prix: "69.90", Qte:"40-45"},
-  {nomFrance: "sabot tendance femmes", nomArabe: "", marque: "ORIES", code: "21609528", bareCode: "", image: "./images", prix: "49.90", Qte:"36-41"}
+  {nomFrance: "sabot tendance hommes", nomArabe: "", marque: "ORIES", code: "21609530", bareCode: "", image: "./images/sabot ories homme.PNG", prix: "69.90", Qte:"40-45"},
+  {nomFrance: "sabot tendance femmes", nomArabe: "", marque: "ORIES", code: "21609528", bareCode: "", image: "./images/sabot ories femme.PNG", prix: "49.90", Qte:"36-41"},
+  {nomFrance: "Nectar Mix 330ml", nomArabe: "", marque: "SANTAL", code: "21706373", bareCode: "", image: "./images/santal 330ml.PNG", prix: "7.90", Qte:"330"},
+  {nomFrance: "boulettes de sardine 125g", nomArabe: "", marque: "CARLE", code: "21706560", bareCode: "", image: "./images/", prix: "6.95", Qte:"125"},
+  {nomFrance: "epices tacos", nomArabe: "", marque: "PEPIRONI", code: "21704783", bareCode: "", image: "./images/epices pepironi tacos.PNG", prix: "7.50", Qte:"38"}
 
 
 
